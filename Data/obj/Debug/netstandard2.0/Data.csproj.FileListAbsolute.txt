@@ -1,0 +1,9 @@
+C:\Users\debor\source\repos\CopaFilmes\Data\bin\Debug\netstandard2.0\Data.deps.json
+C:\Users\debor\source\repos\CopaFilmes\Data\bin\Debug\netstandard2.0\Data.dll
+C:\Users\debor\source\repos\CopaFilmes\Data\bin\Debug\netstandard2.0\Data.pdb
+C:\Users\debor\source\repos\CopaFilmes\Data\obj\Debug\netstandard2.0\Data.csprojAssemblyReference.cache
+C:\Users\debor\source\repos\CopaFilmes\Data\obj\Debug\netstandard2.0\Data.csproj.CoreCompileInputs.cache
+C:\Users\debor\source\repos\CopaFilmes\Data\obj\Debug\netstandard2.0\Data.AssemblyInfoInputs.cache
+C:\Users\debor\source\repos\CopaFilmes\Data\obj\Debug\netstandard2.0\Data.AssemblyInfo.cs
+C:\Users\debor\source\repos\CopaFilmes\Data\obj\Debug\netstandard2.0\Data.dll
+C:\Users\debor\source\repos\CopaFilmes\Data\obj\Debug\netstandard2.0\Data.pdb
