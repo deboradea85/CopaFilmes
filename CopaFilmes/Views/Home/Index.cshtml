@@ -7,11 +7,11 @@
     <h4>Fase de Seleção</h4>
     <h6>Selecione 8 filmes que você deseja que entrem na competição e depois pressione o botão GERAR MEU CAMPEONATO para prosseguir.</h6>
 </div>
-<form class="form">
+<form class="form" asp-action="ObterResultadoCampeonato" method="post" onsubmit="return ValidarFormOnSubmit();">
     <div class="container">
         <div class="row" style="padding-top:20px">
             <div class="col-sm-6">
-                <h4>Selecionados 0 de 8 filmes</h4>
+                <h4>Selecionados <span id="filmesSelecionados">0</span> de 8 filmes</h4>
             </div>
             <div class="col-sm-6">
                 <button class="btn btn-info pull-right" type="submit">GERAR MEU CAMPEONATO</button>
@@ -19,102 +19,17 @@
         </div>
 
         <div class="row">
-            <div class="col-sm-3 inputDiv">
-                <div class="inputGroup">
-                    <input id="tt3606756" name="tt5164214" type="checkbox" />
-                    <label for="tt3606756">Os Incríveis 2</label>
+            @{
+            foreach (var filme in Model)
+            {
+                <div class="col-sm-3 inputDiv">
+                    <div class="inputGroup">
+                        <input id="@filme.Id" value="@filme.Id" name="filmes" type="checkbox" onclick="FilmeOnClick();"/>
+                        <label for="@filme.Id">@filme.Titulo<br /> @filme.AnoLancamento</label>
+                    </div>
                 </div>
+            }
+            }
             </div>
-            <div class="col-sm-3 inputDiv">
-                <div class="inputGroup">
-                    <input id="tt4881806" name="tt5164214" type="checkbox" />
-                    <label for="tt4881806">Jurassic World: Reino Ameaçado</label>
-                </div>
-            </div>
-            <div class="col-sm-3 inputDiv">
-                <div class="inputGroup">
-                    <input id="tt5164214" name="tt5164214" type="checkbox" />
-                    <label for="tt5164214">Oito Mulheres e um Segredo</label>
-                </div>
-            </div>
-            <div class="col-sm-3 inputDiv">
-                <div class="inputGroup">
-                    <input id="tt7784604" name="tt7784604" type="checkbox" />
-                    <label for="tt7784604">Hereditário</label>
-                </div>
-            </div>
-            <div class="col-sm-3 inputDiv">
-                <div class="inputGroup">
-                    <input id="tt4154756" name="tt4154756" type="checkbox" />
-                    <label for="tt4154756">Vingadores: Guerra Infinita</label>
-                </div>
-            </div>
-            <div class="col-sm-3 inputDiv">
-                <div class="inputGroup">
-                    <input id="tt5463162" name="tt5463162" type="checkbox" />
-                    <label for="tt5463162">Deadpool 2</label>
-                </div>
-            </div>
-            <div class="col-sm-3 inputDiv">
-                <div class="inputGroup">
-                    <input id="tt3778644" name="tt3778644" type="checkbox" />
-                    <label for="tt3778644">Han Solo: Uma História Star Wars</label>
-                </div>
-            </div>
-            <div class="col-sm-3 inputDiv">
-                <div class="inputGroup">
-                    <input id="tt3501632" name="tt3501632" type="checkbox" />
-                    <label for="tt3501632">Thor: Ragnarok</label>
-                </div>
-            </div>
-            <div class="col-sm-3 inputDiv">
-                <div class="inputGroup">
-                    <input id="tt2854926" name="tt2854926" type="checkbox" />
-                    <label for="tt2854926">Te Peguei!</label>
-                </div>
-            </div>
-            <div class="col-sm-3 inputDiv">
-                <div class="inputGroup">
-                    <input id="tt0317705" name="tt0317705" type="checkbox" />
-                    <label for="tt0317705">Os Incríveis</label>
-                </div>
-            </div>
-            <div class="col-sm-3 inputDiv">
-                <div class="inputGroup">
-                    <input id="tt3799232" name="tt3799232" type="checkbox" />
-                    <label for="tt3799232">A Barraca do Beijo</label>
-                </div>
-            </div>
-            <div class="col-sm-3 inputDiv">
-                <div class="inputGroup">
-                    <input id="tt1365519" name="tt1365519" type="checkbox" />
-                    <label for="tt1365519">Tomb Raider: A Origem</label>
-                </div>
-            </div>
-            <div class="col-sm-3 inputDiv">
-                <div class="inputGroup">
-                    <input id="tt1825683" name="tt1825683" type="checkbox" />
-                    <label for="tt1825683">Pantera Negra</label>
-                </div>
-            </div>
-            <div class="col-sm-3 inputDiv">
-                <div class="inputGroup">
-                    <input id="tt5834262" name="tt5834262" type="checkbox" />
-                    <label for="tt5834262">Hotel Artemis</label>
-                </div>
-            </div>
-            <div class="col-sm-3 inputDiv">
-                <div class="inputGroup">
-                    <input id="tt7690670" name="tt7690670" type="checkbox" />
-                    <label for="tt7690670">Superfly</label>
-                </div>
-            </div>
-            <div class="col-sm-3 inputDiv">
-                <div class="inputGroup">
-                    <input id="tt6499752" name="tt6499752" type="checkbox" />
-                    <label for="tt6499752">Upgrade</label>
-                </div>
-            </div>
-        </div>
     </div>
 </form>

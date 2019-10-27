@@ -5,20 +5,33 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using CopaFilmes.Models;
+using Business;
 
 namespace CopaFilmes.Controllers
 {
     public class HomeController : Controller
     {
+
         public IActionResult Index()
         {
-            return View();
+            return View(new FilmeBusiness().ListarFilmes());
         }
         [HttpPost]
-        public IActionResult ObterResultadoCampeonato(string filmes)
+        public IActionResult ObterResultadoCampeonato(string[] filmes)
         {
-            return null;
+            if (filmes.Count() == 8)
+            {
+                return Index();
+            }
+            else
+            {
+                ModelState.AddModelError("Quantidade de filmes selecionada é inválida", filmes.Count().ToString());
+                var listaFilmes = new FilmeBusiness().ListarFilmes();
+                return View(nameof(Index), listaFilmes);
+
+            }
         }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

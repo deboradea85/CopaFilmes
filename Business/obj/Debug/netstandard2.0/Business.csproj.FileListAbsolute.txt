@@ -6,3 +6,11 @@ C:\Users\debor\source\repos\CopaFilmes\Business\obj\Debug\netstandard2.0\Busines
 C:\Users\debor\source\repos\CopaFilmes\Business\obj\Debug\netstandard2.0\Business.AssemblyInfo.cs
 C:\Users\debor\source\repos\CopaFilmes\Business\obj\Debug\netstandard2.0\Business.dll
 C:\Users\debor\source\repos\CopaFilmes\Business\obj\Debug\netstandard2.0\Business.pdb
+C:\Users\debor\source\repos\CopaFilmes\Business\bin\Debug\netstandard2.0\Data.dll
+C:\Users\debor\source\repos\CopaFilmes\Business\bin\Debug\netstandard2.0\Model.dll
+C:\Users\debor\source\repos\CopaFilmes\Business\bin\Debug\netstandard2.0\Newtonsoft.Json.dll
+C:\Users\debor\source\repos\CopaFilmes\Business\bin\Debug\netstandard2.0\Data.pdb
+C:\Users\debor\source\repos\CopaFilmes\Business\bin\Debug\netstandard2.0\Model.pdb
+C:\Users\debor\source\repos\CopaFilmes\Business\bin\Debug\netstandard2.0\Newtonsoft.Json.xml
+C:\Users\debor\source\repos\CopaFilmes\Business\obj\Debug\netstandard2.0\Business.csprojAssemblyReference.cache
+C:\Users\debor\source\repos\CopaFilmes\Business\obj\Debug\netstandard2.0\Business.csproj.CopyComplete

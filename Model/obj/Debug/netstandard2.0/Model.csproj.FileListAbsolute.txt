@@ -7,3 +7,6 @@ C:\Users\debor\source\repos\CopaFilmes\Model\obj\Debug\netstandard2.0\Model.Asse
 C:\Users\debor\source\repos\CopaFilmes\Model\obj\Debug\netstandard2.0\Model.AssemblyInfo.cs
 C:\Users\debor\source\repos\CopaFilmes\Model\obj\Debug\netstandard2.0\Model.dll
 C:\Users\debor\source\repos\CopaFilmes\Model\obj\Debug\netstandard2.0\Model.pdb
+C:\Users\debor\source\repos\CopaFilmes\Model\bin\Debug\netstandard2.0\Newtonsoft.Json.dll
+C:\Users\debor\source\repos\CopaFilmes\Model\bin\Debug\netstandard2.0\Newtonsoft.Json.xml
+C:\Users\debor\source\repos\CopaFilmes\Model\obj\Debug\netstandard2.0\Model.csproj.CopyComplete
