@@ -1,34 +1,23 @@
-﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
-for details on configuring this project to bundle and minify static web assets. */
-body {
-    padding-top: 50px;
-    padding-bottom: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Wrapping element */
-/* Set some basic padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
-}
+﻿
 .bannerCopa {
     background-color: #467c91;
     text-align: center;
     color: #fff;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
-
-/* Make .svg files in the carousel display properly in older browsers */
-.carousel-inner .item img[src$=".svg"] {
-    width: 100%;
+.bannerfilmes {
+    background-color: #E6E6E6;
+    color: black;
+    height: 63px;
+    width: 95%;
 }
 
-/* QR code generator */
-#qrCode {
-    margin: 15px;
+.resultado {
+    padding-top:20px; 
+    padding-left:40px;
 }
-
 
 /**checkbox*/
 
@@ -66,7 +55,7 @@ body {
     }
 
         .inputGroup label:before {
-            width: 10px;
+            width: 14px;
             height: 10px;
             border-radius: 50%;
             content: '';
@@ -102,7 +91,7 @@ body {
         }
 
     .inputGroup input:checked ~ label {
-        color: #fff;
+        color: #467c91;
     }
 
         .inputGroup input:checked ~ label:before {
@@ -136,4 +125,26 @@ body {
     .inputDiv {
         height: 40px;
     }
+
+    .bannerCopa {
+        background-color: #467c91;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 95%;
+    }
+
+    .bannerfilmes {
+        background-color: #E6E6E6;
+        color: black;
+        height: 63px;
+        width: 95%;
+    }
+
+    .inputGroup label {
+        padding: 0px 0px;
+       
+    }
+
 }

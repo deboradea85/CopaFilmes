@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Campeonato de Filmes</title>
+    <title>@ViewData["Titulo"] - Campeonato de Filmes</title>
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -20,6 +20,11 @@
     <partial name="_CookieConsentPartial" />
 
     <div class="container body-content">
+        <div class="container bannerCopa">
+            <h2><b>CAMPEONATO DE FILMES</b></h2>
+            <h4>@ViewData["Titulo"]</h4>
+            <h6>@ViewData["Descricao"]</h6>
+        </div>
         @RenderBody()
         <hr />
         <footer>

@@ -5,6 +5,12 @@ C:\Users\debor\source\repos\CopaFilmes\CopaFilmes\bin\Debug\netcoreapp2.1\CopaFi
 C:\Users\debor\source\repos\CopaFilmes\CopaFilmes\bin\Debug\netcoreapp2.1\CopaFilmes.pdb
 C:\Users\debor\source\repos\CopaFilmes\CopaFilmes\bin\Debug\netcoreapp2.1\CopaFilmes.Views.dll
 C:\Users\debor\source\repos\CopaFilmes\CopaFilmes\bin\Debug\netcoreapp2.1\CopaFilmes.Views.pdb
+C:\Users\debor\source\repos\CopaFilmes\CopaFilmes\bin\Debug\netcoreapp2.1\Business.dll
+C:\Users\debor\source\repos\CopaFilmes\CopaFilmes\bin\Debug\netcoreapp2.1\Data.dll
+C:\Users\debor\source\repos\CopaFilmes\CopaFilmes\bin\Debug\netcoreapp2.1\Model.dll
+C:\Users\debor\source\repos\CopaFilmes\CopaFilmes\bin\Debug\netcoreapp2.1\Business.pdb
+C:\Users\debor\source\repos\CopaFilmes\CopaFilmes\bin\Debug\netcoreapp2.1\Model.pdb
+C:\Users\debor\source\repos\CopaFilmes\CopaFilmes\bin\Debug\netcoreapp2.1\Data.pdb
 C:\Users\debor\source\repos\CopaFilmes\CopaFilmes\obj\Debug\netcoreapp2.1\CopaFilmes.csprojAssemblyReference.cache
 C:\Users\debor\source\repos\CopaFilmes\CopaFilmes\obj\Debug\netcoreapp2.1\CopaFilmes.csproj.CoreCompileInputs.cache
 C:\Users\debor\source\repos\CopaFilmes\CopaFilmes\obj\Debug\netcoreapp2.1\CopaFilmes.RazorAssemblyInfo.cache
@@ -24,12 +30,7 @@ C:\Users\debor\source\repos\CopaFilmes\CopaFilmes\obj\Debug\netcoreapp2.1\Razor\
 C:\Users\debor\source\repos\CopaFilmes\CopaFilmes\obj\Debug\netcoreapp2.1\CopaFilmes.RazorTargetAssemblyInfo.cache
 C:\Users\debor\source\repos\CopaFilmes\CopaFilmes\obj\Debug\netcoreapp2.1\CopaFilmes.RazorTargetAssemblyInfo.cs
 C:\Users\debor\source\repos\CopaFilmes\CopaFilmes\obj\Debug\netcoreapp2.1\CopaFilmes.Views.pdb
+C:\Users\debor\source\repos\CopaFilmes\CopaFilmes\obj\Debug\netcoreapp2.1\CopaFilmes.csproj.CopyComplete
 C:\Users\debor\source\repos\CopaFilmes\CopaFilmes\obj\Debug\netcoreapp2.1\CopaFilmes.dll
 C:\Users\debor\source\repos\CopaFilmes\CopaFilmes\obj\Debug\netcoreapp2.1\CopaFilmes.pdb
-C:\Users\debor\source\repos\CopaFilmes\CopaFilmes\obj\Debug\netcoreapp2.1\CopaFilmes.csproj.CopyComplete
-C:\Users\debor\source\repos\CopaFilmes\CopaFilmes\bin\Debug\netcoreapp2.1\Business.dll
-C:\Users\debor\source\repos\CopaFilmes\CopaFilmes\bin\Debug\netcoreapp2.1\Data.dll
-C:\Users\debor\source\repos\CopaFilmes\CopaFilmes\bin\Debug\netcoreapp2.1\Model.dll
-C:\Users\debor\source\repos\CopaFilmes\CopaFilmes\bin\Debug\netcoreapp2.1\Business.pdb
-C:\Users\debor\source\repos\CopaFilmes\CopaFilmes\bin\Debug\netcoreapp2.1\Model.pdb
-C:\Users\debor\source\repos\CopaFilmes\CopaFilmes\bin\Debug\netcoreapp2.1\Data.pdb
+C:\Users\debor\source\repos\CopaFilmes\CopaFilmes\obj\Debug\netcoreapp2.1\Razor\Views\Home\ResultadoCampeonato.g.cshtml.cs

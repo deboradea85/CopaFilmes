@@ -1,17 +1,14 @@
 ﻿@{
-    ViewData["Title"] = "Fase de Seleção";
-}
+    ViewData["Titulo"] = "Fase de Seleção";
+    ViewData["Descricao"] = "Selecione 8 filmes que você deseja que entrem na competição e depois pressione o botão GERAR MEU CAMPEONATO para prosseguir.";
 
-<div class="container bannerCopa">
-    <h2><b>CAMPEONATO DOS FILMES</b></h2>
-    <h4>Fase de Seleção</h4>
-    <h6>Selecione 8 filmes que você deseja que entrem na competição e depois pressione o botão GERAR MEU CAMPEONATO para prosseguir.</h6>
-</div>
-<form class="form" asp-action="ObterResultadoCampeonato" method="post" onsubmit="return ValidarFormOnSubmit();">
+}
+<form class="form" asp-action="ResultadoCampeonato" method="post" onsubmit="return ValidarFormOnSubmit();">
     <div class="container">
         <div class="row" style="padding-top:20px">
             <div class="col-sm-6">
-                <h4>Selecionados <span id="filmesSelecionados">0</span> de 8 filmes</h4>
+                <h6>Selecionados <b><span id="filmesSelecionados">0</span></b></h6>
+                <h6>de <b>8</b> filmes</h6>
             </div>
             <div class="col-sm-6">
                 <button class="btn btn-info pull-right" type="submit">GERAR MEU CAMPEONATO</button>

@@ -27,8 +27,8 @@ namespace Data
                     return  await resposta.Content.ReadAsStringAsync();
                 }
                 else
-                {
-                    throw new ArgumentException("Erro ao Obter Dados.");
+                {  
+                    throw new HttpRequestException("Erro ao Obter Dados.");
                 }
             }
         }

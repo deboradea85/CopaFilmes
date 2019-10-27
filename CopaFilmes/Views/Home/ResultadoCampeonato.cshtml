@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Titulo"] = "Resultado";
+    ViewData["Descricao"] = "Veja o resultado final do Campeonato de filmes de forma simples e rápida.";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="">
+            <a asp-action="Index" class="btn btn-info pull-right">GERAR NOVO CAMPEONATO</a>
+        </div>
+        <div>
+            <div class="col-1 bannerCopa">
+                <h2>1º</h2>
+            </div>
+            <div class="col-11 bannerfilmes">
+                <p>@Model[0].Titulo</p>
+                <p>@Model[0].AnoLancamento</p>
+            </div>
+        </div>
+        <div>
+            <div class="col-1 bannerCopa">
+                <h2>2º</h2>
+            </div>
+            <div class="col-11 bannerfilmes">
+                <p>@Model[1].Titulo</p>
+                <p>@Model[1].AnoLancamento</p>
+            </div>
+        </div>
+    </div>
+</div>

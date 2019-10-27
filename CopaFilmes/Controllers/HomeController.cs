@@ -17,19 +17,12 @@ namespace CopaFilmes.Controllers
             return View(new FilmeBusiness().ListarFilmes());
         }
         [HttpPost]
-        public IActionResult ObterResultadoCampeonato(string[] filmes)
+        public IActionResult ResultadoCampeonato(string[] filmes)
         {
-            if (filmes.Count() == 8)
-            {
-                return Index();
-            }
-            else
-            {
-                ModelState.AddModelError("Quantidade de filmes selecionada é inválida", filmes.Count().ToString());
-                var listaFilmes = new FilmeBusiness().ListarFilmes();
-                return View(nameof(Index), listaFilmes);
-
-            }
+            
+                return View(new FilmeBusiness().DefinirVencedor(filmes));
+            
+            
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
