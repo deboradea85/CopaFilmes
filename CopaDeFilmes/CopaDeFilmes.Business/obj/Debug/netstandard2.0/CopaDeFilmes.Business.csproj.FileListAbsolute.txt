@@ -1,0 +1,16 @@
+C:\Users\debor\source\repos\CopaFilmes\CopaDeFilmes\CopaDeFilmes.Business\bin\Debug\netstandard2.0\CopaDeFilmes.Business.deps.json
+C:\Users\debor\source\repos\CopaFilmes\CopaDeFilmes\CopaDeFilmes.Business\bin\Debug\netstandard2.0\CopaDeFilmes.Business.dll
+C:\Users\debor\source\repos\CopaFilmes\CopaDeFilmes\CopaDeFilmes.Business\bin\Debug\netstandard2.0\CopaDeFilmes.Business.pdb
+C:\Users\debor\source\repos\CopaFilmes\CopaDeFilmes\CopaDeFilmes.Business\bin\Debug\netstandard2.0\CopaDeFilmes.Data.dll
+C:\Users\debor\source\repos\CopaFilmes\CopaDeFilmes\CopaDeFilmes.Business\bin\Debug\netstandard2.0\CopaDeFIlmes.Model.dll
+C:\Users\debor\source\repos\CopaFilmes\CopaDeFilmes\CopaDeFilmes.Business\bin\Debug\netstandard2.0\Newtonsoft.Json.dll
+C:\Users\debor\source\repos\CopaFilmes\CopaDeFilmes\CopaDeFilmes.Business\bin\Debug\netstandard2.0\CopaDeFilmes.Data.pdb
+C:\Users\debor\source\repos\CopaFilmes\CopaDeFilmes\CopaDeFilmes.Business\bin\Debug\netstandard2.0\CopaDeFIlmes.Model.pdb
+C:\Users\debor\source\repos\CopaFilmes\CopaDeFilmes\CopaDeFilmes.Business\bin\Debug\netstandard2.0\Newtonsoft.Json.xml
+C:\Users\debor\source\repos\CopaFilmes\CopaDeFilmes\CopaDeFilmes.Business\obj\Debug\netstandard2.0\CopaDeFilmes.Business.csprojAssemblyReference.cache
+C:\Users\debor\source\repos\CopaFilmes\CopaDeFilmes\CopaDeFilmes.Business\obj\Debug\netstandard2.0\CopaDeFilmes.Business.csproj.CoreCompileInputs.cache
+C:\Users\debor\source\repos\CopaFilmes\CopaDeFilmes\CopaDeFilmes.Business\obj\Debug\netstandard2.0\CopaDeFilmes.Business.AssemblyInfoInputs.cache
+C:\Users\debor\source\repos\CopaFilmes\CopaDeFilmes\CopaDeFilmes.Business\obj\Debug\netstandard2.0\CopaDeFilmes.Business.AssemblyInfo.cs
+C:\Users\debor\source\repos\CopaFilmes\CopaDeFilmes\CopaDeFilmes.Business\obj\Debug\netstandard2.0\CopaDeFilmes.Business.csproj.CopyComplete
+C:\Users\debor\source\repos\CopaFilmes\CopaDeFilmes\CopaDeFilmes.Business\obj\Debug\netstandard2.0\CopaDeFilmes.Business.dll
+C:\Users\debor\source\repos\CopaFilmes\CopaDeFilmes\CopaDeFilmes.Business\obj\Debug\netstandard2.0\CopaDeFilmes.Business.pdb

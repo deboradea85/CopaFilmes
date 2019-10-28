@@ -1,0 +1,12 @@
+C:\Users\debor\source\repos\CopaFilmes\CopaDeFilmes\CopaDeFIlmes.Model\bin\Debug\netstandard2.0\CopaDeFIlmes.Model.deps.json
+C:\Users\debor\source\repos\CopaFilmes\CopaDeFilmes\CopaDeFIlmes.Model\bin\Debug\netstandard2.0\CopaDeFIlmes.Model.dll
+C:\Users\debor\source\repos\CopaFilmes\CopaDeFilmes\CopaDeFIlmes.Model\bin\Debug\netstandard2.0\CopaDeFIlmes.Model.pdb
+C:\Users\debor\source\repos\CopaFilmes\CopaDeFilmes\CopaDeFIlmes.Model\bin\Debug\netstandard2.0\Newtonsoft.Json.dll
+C:\Users\debor\source\repos\CopaFilmes\CopaDeFilmes\CopaDeFIlmes.Model\bin\Debug\netstandard2.0\Newtonsoft.Json.xml
+C:\Users\debor\source\repos\CopaFilmes\CopaDeFilmes\CopaDeFIlmes.Model\obj\Debug\netstandard2.0\CopaDeFIlmes.Model.csprojAssemblyReference.cache
+C:\Users\debor\source\repos\CopaFilmes\CopaDeFilmes\CopaDeFIlmes.Model\obj\Debug\netstandard2.0\CopaDeFIlmes.Model.csproj.CoreCompileInputs.cache
+C:\Users\debor\source\repos\CopaFilmes\CopaDeFilmes\CopaDeFIlmes.Model\obj\Debug\netstandard2.0\CopaDeFIlmes.Model.AssemblyInfoInputs.cache
+C:\Users\debor\source\repos\CopaFilmes\CopaDeFilmes\CopaDeFIlmes.Model\obj\Debug\netstandard2.0\CopaDeFIlmes.Model.AssemblyInfo.cs
+C:\Users\debor\source\repos\CopaFilmes\CopaDeFilmes\CopaDeFIlmes.Model\obj\Debug\netstandard2.0\CopaDeFIlmes.Model.csproj.CopyComplete
+C:\Users\debor\source\repos\CopaFilmes\CopaDeFilmes\CopaDeFIlmes.Model\obj\Debug\netstandard2.0\CopaDeFIlmes.Model.dll
+C:\Users\debor\source\repos\CopaFilmes\CopaDeFilmes\CopaDeFIlmes.Model\obj\Debug\netstandard2.0\CopaDeFIlmes.Model.pdb
