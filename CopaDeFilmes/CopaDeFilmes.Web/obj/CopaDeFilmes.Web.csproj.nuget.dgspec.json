@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\debor\\source\\repos\\CopaFilmes\\CopaDeFilmes\\CopaDeFilmes\\CopaDeFilmes.Web.csproj": {}
+    "C:\\Users\\debor\\source\\repos\\CopaFilmes\\CopaDeFilmes\\CopaDeFilmes.Web\\CopaDeFilmes.Web.csproj": {}
   },
   "projects": {
     "C:\\Users\\debor\\source\\repos\\CopaFilmes\\CopaDeFilmes\\CopaDeFilmes.Business\\CopaDeFilmes.Business.csproj": {
@@ -171,14 +171,14 @@
         }
       }
     },
-    "C:\\Users\\debor\\source\\repos\\CopaFilmes\\CopaDeFilmes\\CopaDeFilmes\\CopaDeFilmes.Web.csproj": {
+    "C:\\Users\\debor\\source\\repos\\CopaFilmes\\CopaDeFilmes\\CopaDeFilmes.Web\\CopaDeFilmes.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\debor\\source\\repos\\CopaFilmes\\CopaDeFilmes\\CopaDeFilmes\\CopaDeFilmes.Web.csproj",
+        "projectUniqueName": "C:\\Users\\debor\\source\\repos\\CopaFilmes\\CopaDeFilmes\\CopaDeFilmes.Web\\CopaDeFilmes.Web.csproj",
         "projectName": "CopaDeFilmes.Web",
-        "projectPath": "C:\\Users\\debor\\source\\repos\\CopaFilmes\\CopaDeFilmes\\CopaDeFilmes\\CopaDeFilmes.Web.csproj",
+        "projectPath": "C:\\Users\\debor\\source\\repos\\CopaFilmes\\CopaDeFilmes\\CopaDeFilmes.Web\\CopaDeFilmes.Web.csproj",
         "packagesPath": "C:\\Users\\debor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\debor\\source\\repos\\CopaFilmes\\CopaDeFilmes\\CopaDeFilmes\\obj\\",
+        "outputPath": "C:\\Users\\debor\\source\\repos\\CopaFilmes\\CopaDeFilmes\\CopaDeFilmes.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
