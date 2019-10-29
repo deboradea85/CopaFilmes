@@ -27,16 +27,16 @@ $ https://github.com/deboradea85/CopaFilmes/archive/master.zip
 ```
 Executar o projeto WEB - Utilizando Visual Studio
 ```sh
-$ Abrir a Solution: Arquivo -> Abrir -> Projeto/Solução
+$ Abrir a Solution: Selecionar o menu Arquivo, em seguida Abrir, em seguida Projeto/Solução
 
-$ Na Aba Gerenciador de Soluções, clicar com o botão direito em cima do projeto CopaDeFilmes.Web e selecionar a opção Definir Como Projeto de Inicialização 
+$ Na Aba Gerenciador de Soluções, clicar com o botão direito no projeto CopaDeFilmes.Web e selecionar a opção Definir Como Projeto de Inicialização 
 
-$ Acessar o Menu Depurar, em seguida Iniciar Depuração
+$ Selecionar o Menu Depurar, em seguida Iniciar Depuração
 ```
 
 Executar o testes unitários
 ```sh
-$ Abrir a Solution: Arquivo -> Abrir -> Projeto/Solução
+$ Abrir a Solution: Selecionar o menu Arquivo, em seguida Abrir, em seguida Projeto/Solução
 
 $ Acessar o Menu teste, em seguida Windows, em seguida Gerenciador de Testes
 
