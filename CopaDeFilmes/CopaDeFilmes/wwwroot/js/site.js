@@ -1,6 +1,5 @@
 ﻿function FilmeOnClick() {
     $('#msgAlert').hide();
-    let selecionado = document.getElementById("filmesSelecionados");
     filmesSelecionados.textContent = ObterQtdFilmesSelecionados();
 }
 
