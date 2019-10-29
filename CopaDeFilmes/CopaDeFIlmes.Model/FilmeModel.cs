@@ -5,6 +5,14 @@ namespace CopaDeFilmes.Model
 
     public class FilmeModel
     {
+        public FilmeModel(string id, string titulo, int anoLancamento, float nota)
+        {
+            Id = id;
+            Titulo = titulo;
+            AnoLancamento = anoLancamento;
+            Nota = nota;
+        }
+
         [JsonProperty(PropertyName = "id")]
         public string Id { get; set; }
         [JsonProperty(PropertyName = "titulo")]
