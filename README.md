@@ -2,7 +2,7 @@
 
 O projeto foi desenvolvido utilizando: 
 
-  - Visual Studio Comuunity 2019, Versão 16.2.1
+  - Visual Studio Comununity 2019, Versão 16.2.1
 
 ### Tecnologias
 
