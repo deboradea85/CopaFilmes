@@ -15,7 +15,7 @@ O projeto foi desenvolvido utilizando:
 * [XUnit](https://xunit.net/) - Ferramenta para testes de Unidade 
 
 ### Orientações para baixar e executar o projeto Web
-**Observação: Esse projeto Utiliza API externa, por isso é necessário que esteja coectado à internet!**
+**Observação: Esse projeto Utiliza API externa, por isso é necessário que esteja conectado à internet!**
 
 Clonar o Projeto com usando GIT:
 ```sh
@@ -27,7 +27,7 @@ $ https://github.com/deboradea85/CopaFilmes/archive/master.zip
 ```
 Executar o projeto WEB - Utilizando Visual Studio
 ```sh
-$ Abrir a Solution: Selecionar o menu Arquivo, em seguida Abrir, em seguida Projeto/Solução
+$ Abrir a Solução: Selecionar o menu Arquivo, em seguida Abrir, em seguida Projeto/Solução
 
 $ Na Aba Gerenciador de Soluções, clicar com o botão direito no projeto CopaDeFilmes.Web e selecionar a opção Definir Como Projeto de Inicialização 
 
@@ -36,7 +36,7 @@ $ Selecionar o Menu Depurar, em seguida Iniciar Depuração
 
 Executar o testes unitários
 ```sh
-$ Abrir a Solution: Selecionar o menu Arquivo, em seguida Abrir, em seguida Projeto/Solução
+$ Abrir a Solução: Selecionar o menu Arquivo, em seguida Abrir, em seguida Projeto/Solução
 
 $ Acessar o Menu teste, em seguida Windows, em seguida Gerenciador de Testes
 
