@@ -40,5 +40,5 @@ $ Abrir a Solução: Selecionar o menu Arquivo, em seguida Abrir, em seguida Pro
 
 $ Acessar o Menu teste, em seguida Windows, em seguida Gerenciador de Testes
 
-$ Clicar no Botão Executar Tudo (Ctrl+R )
+$ Clicar no Botão Executar Tudo
 ```
