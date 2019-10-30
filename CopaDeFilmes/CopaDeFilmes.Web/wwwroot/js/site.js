@@ -1,5 +1,5 @@
 ﻿function FilmeOnClick() {
-    let selecionado = document.getElementById("filmesSelecionados");
+    $('#msgAlert').hide();
     filmesSelecionados.textContent = ObterQtdFilmesSelecionados();
 }
 
@@ -7,7 +7,7 @@ function ValidarFormOnSubmit() {
     if (ObterQtdFilmesSelecionados() == 8) {
         return true;
     } else {
-        alert("É necessário selecionar 8 filmes para prosseguir");
+        $('#msgAlert').show();
         return false;
     }
 }

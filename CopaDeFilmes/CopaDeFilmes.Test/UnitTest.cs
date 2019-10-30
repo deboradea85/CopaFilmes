@@ -1,5 +1,6 @@
 using CopaDeFilmes.Model;
 using CopaDeFilmesBusiness;
+using DeepEqual.Syntax;
 using System.Collections.Generic;
 using Xunit;
 
@@ -20,21 +21,22 @@ namespace CopaDeFilmes.Test
         {
             business = new FilmeBusiness();
             List<FilmeModel> filmes = business.DefinirVencedor(FilmesMock.FilmesCasoTeste());
-            Assert.Equal(filmes, FilmesMock.FilmesVencedores());
+            //CollectionAssert.AreEqual(filmes, FilmesMock.FilmesVencedores());
+            Assert.True(filmes.IsDeepEqual(FilmesMock.FilmesVencedores()));
         }
         [Fact]
         public void TestarVencedorPrimeiroLugar()
         {
             business = new FilmeBusiness();
             FilmeModel filme = business.DefinirVencedor(FilmesMock.FilmesCasoTeste())[0];
-            Assert.Equal(filme, FilmesMock.FilmeVencedor1);
+            Assert.True(filme.IsDeepEqual(FilmesMock.FilmeVencedor1));
         }
         [Fact]
         public void TestarVencedorSegundoLugar()
         {
             business = new FilmeBusiness();
             FilmeModel filme = business.DefinirVencedor(FilmesMock.FilmesCasoTeste())[1];
-            Assert.Equal (filme, FilmesMock.FilmeVencedor2);
+            Assert.True(filme.IsDeepEqual(FilmesMock.FilmeVencedor2));
         }
     }
 }
