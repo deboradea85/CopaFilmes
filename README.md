@@ -27,7 +27,9 @@ $ https://github.com/deboradea85/CopaFilmes/archive/master.zip
 ```
 Executar o projeto WEB - Utilizando Visual Studio
 ```sh
-$ Abrir a Solução: Selecionar o menu Arquivo, em seguida Abrir, em seguida Projeto/Solução
+$ Selecionar o menu Arquivo, em seguida Abrir, em seguida Projeto/Solução
+
+$ Buscar o arquivo CopaDeFilmes.sln no diretório onde o projeto foi baixado, em seguida, clicar em Abrir
 
 $ Na Aba Gerenciador de Soluções, clicar com o botão direito no projeto CopaDeFilmes.Web e selecionar a opção Definir Como Projeto de Inicialização 
 
